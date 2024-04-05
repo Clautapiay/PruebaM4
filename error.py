@@ -2,11 +2,11 @@
 class Exception():
     pass
 
-class Error(Exeption):
+class Error(Exception):
     pass
 
 class LargoExcedidoError(Error):
     pass
 
-class SubTipoInvadiloError(Error):
+class SubTipoInvalidoError(Error):
     pass
